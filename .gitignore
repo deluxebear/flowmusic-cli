@@ -1,0 +1,9 @@
+captures/
+out/
+node_modules/
+research/
+.agents/
+mkdir/
+*.log
+.env
+.DS_Store

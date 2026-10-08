@@ -1,0 +1,3 @@
+calm lo-fi piano, rainy night, 70 bpm
+{"prompt":"upbeat synthwave, driving, 120 bpm","title":"Neon Drive","instrumental":true}
+{"prompt":"acoustic folk ballad, warm female vocal","lyrics":"[Verse]\nWalking home beneath the stars\n[Chorus]\nTake me back to where we are","title":"Beneath the Stars"}

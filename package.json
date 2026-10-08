@@ -1,0 +1,32 @@
+{
+  "name": "flowmusic-cli",
+  "version": "0.3.0",
+  "description": "Unofficial command-line client for flowmusic.app: generate, extend, cover and split songs from the terminal",
+  "type": "module",
+  "bin": {
+    "flowmusic": "bin/flowmusic.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "skills"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "music",
+    "ai",
+    "cli",
+    "flowmusic",
+    "lyria"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "node bin/flowmusic.mjs",
+    "test": "node --test test/*.test.mjs"
+  }
+}
