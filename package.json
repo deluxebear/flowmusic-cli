@@ -2,6 +2,14 @@
   "name": "flowmusic-cli",
   "version": "0.3.0",
   "description": "Unofficial command-line client for flowmusic.app: generate, extend, cover and split songs from the terminal",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deluxebear/flowmusic-cli.git"
+  },
+  "homepage": "https://github.com/deluxebear/flowmusic-cli#readme",
+  "bugs": {
+    "url": "https://github.com/deluxebear/flowmusic-cli/issues"
+  },
   "type": "module",
   "bin": {
     "flowmusic": "bin/flowmusic.mjs"
@@ -29,5 +37,8 @@
   "scripts": {
     "start": "node bin/flowmusic.mjs",
     "test": "node --test test/*.test.mjs"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
