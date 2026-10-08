@@ -1,6 +1,8 @@
 # gfmusic — `flowmusic` CLI
 
-Command-line client for [flowmusic.app](https://www.flowmusic.app), built by reverse-engineering its web client.
+English | [简体中文](README.zh-CN.md)
+
+Command-line client for [Google Flow Music](https://www.flowmusic.app), built by reverse-engineering its web client.
 Node ≥ 22, zero dependencies.
 
 ```bash
