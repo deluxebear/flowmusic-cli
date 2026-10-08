@@ -5,6 +5,19 @@
 [Google Flow Music](https://www.flowmusic.app) 的非官方命令行客户端,通过逆向其网页客户端实现。
 要求 Node ≥ 22,零依赖。
 
+## 安装
+
+```bash
+npm install -g flowmusic-cli      # 全局安装,提供 `flowmusic` 命令
+flowmusic --version
+
+npx flowmusic-cli gen "lofi piano" --instrumental   # 或者不安装,直接用 npx 运行
+```
+
+从源码安装:`git clone https://github.com/deluxebear/flowmusic-cli && cd flowmusic-cli && npm link`。
+
+## 使用
+
 ```bash
 flowmusic login                                   # 首次登录(见「登录认证」)
 flowmusic gen "dreamy synthwave, female vocals" --lyrics @lyrics.txt --title "Night Drive" --model "Lyria 3 Pro"

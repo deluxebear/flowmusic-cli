@@ -5,6 +5,19 @@ English | [简体中文](README.zh-CN.md)
 Command-line client for [Google Flow Music](https://www.flowmusic.app), built by reverse-engineering its web client.
 Node ≥ 22, zero dependencies.
 
+## Install
+
+```bash
+npm install -g flowmusic-cli      # global install, provides the `flowmusic` command
+flowmusic --version
+
+npx flowmusic-cli gen "lofi piano" --instrumental   # or run without installing
+```
+
+From source: `git clone https://github.com/deluxebear/flowmusic-cli && cd flowmusic-cli && npm link`.
+
+## Usage
+
 ```bash
 flowmusic login                                   # one-time sign in (see Auth)
 flowmusic gen "dreamy synthwave, female vocals" --lyrics @lyrics.txt --title "Night Drive" --model "Lyria 3 Pro"
