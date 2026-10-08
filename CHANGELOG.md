@@ -1,7 +1,10 @@
 # Changelog
 
 ## Unreleased
+
+## 0.3.1
 - Agent skills in `skills/` (cli router, generate, edit, library, troubleshoot) + `.agents/skills.json`.
+- Source split into `src/commands/` and `src/lib/`; client tests; CI; npm publishing via GitHub Actions (Trusted Publishing).
 
 ## 0.3.0
 - **Length control** `--length SEC` via the `[End - m:ss]` marker (server minimum is ~60 s); `--lyrics` accepts `\n` and `@file`.

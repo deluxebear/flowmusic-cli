@@ -1,6 +1,6 @@
 {
   "name": "flowmusic-cli",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Unofficial command-line client for flowmusic.app: generate, extend, cover and split songs from the terminal",
   "repository": {
     "type": "git",
