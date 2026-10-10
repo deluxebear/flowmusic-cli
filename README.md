@@ -118,3 +118,7 @@ This is an unofficial, undocumented API and may change without notice.
 `skills/` contains agent skills: `flowmusic-cli` (entry/router, readiness check), `flowmusic-generate`,
 `flowmusic-edit`, `flowmusic-library`, `flowmusic-troubleshoot`. `.agents/skills.json` registers them for
 Antigravity; for other agents copy or symlink `skills/*` into their skills directory.
+
+## 社区
+
+感谢 [LINUX DO](https://linux.do) 社区提供开放、友善的技术交流平台
